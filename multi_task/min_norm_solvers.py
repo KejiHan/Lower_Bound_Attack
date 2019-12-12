@@ -3,7 +3,7 @@ import torch
 
 
 class MinNormSolver:
-    MAX_ITER = 250
+    MAX_ITER = 1
     STOP_CRIT = 1e-5
 
     def _min_norm_element_from2(v1v1, v1v2, v2v2):
